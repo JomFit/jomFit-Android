@@ -1,31 +1,6 @@
 # jomFit-Android
 
-
-[![Release](https://jitpack.io/v/jitpack/android-example.svg)](https://jitpack.io/#jitpack/android-example)
-
-Example Android library project that works with jitpack.io.
-
-See this [Tutorial](https://medium.com/@ome450901/publish-an-android-library-by-jitpack-a0342684cbd0) on how to publish an Android Library with JitPack.
-
-For more details check out the [documentation](https://github.com/jitpack/jitpack.io/blob/master/ANDROID.md)
-
-https://jitpack.io/#jitpack/android-example
-
-Add it to your build.gradle with:
-```gradle
-allprojects {
-    repositories {
-        maven { url "https://jitpack.io" }
-    }
-}
-```
-and:
-
-```gradle
-dependencies {
-    compile 'com.github.jitpack:android-example:{latest version}'
-}
-```
+Health and Workout Application 
 
 ## Multiple build variants
 
