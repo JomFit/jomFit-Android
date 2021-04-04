@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements OnNavigationItemS
                     return true;
 
                 case R.id.navigation_world:
-                    toolbar.setTitle("Calculater");
+                    toolbar.setTitle("Calculator");
                     MainActivity.this.openFragment(Fragment_Calculate.newInstance(str, str));
                     return true;
 

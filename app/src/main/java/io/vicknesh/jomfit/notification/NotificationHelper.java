@@ -45,6 +45,6 @@ public class NotificationHelper extends ContextWrapper {
     }
 
     public Builder getWeeklyNotification(String str, String str2, PendingIntent pendingIntent) {
-        return new Builder(getApplicationContext(), "loopbots_terminal").setContentTitle(str).setContentText(str2).setSmallIcon(R.drawable.logo_noti).setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.logo1)).setAutoCancel(true).setOngoing(true).setContentIntent(pendingIntent).setOnlyAlertOnce(true).setSound(RingtoneManager.getDefaultUri(2));
+        return new Builder(getApplicationContext(), "loopbots_terminal").setContentTitle(str).setContentText(str2).setSmallIcon(R.drawable.logo_noti).setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.icon)).setAutoCancel(true).setOngoing(true).setContentIntent(pendingIntent).setOnlyAlertOnce(true).setSound(RingtoneManager.getDefaultUri(2));
     }
 }

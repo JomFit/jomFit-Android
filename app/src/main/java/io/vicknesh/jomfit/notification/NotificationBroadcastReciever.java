@@ -48,7 +48,7 @@ public class NotificationBroadcastReciever extends BroadcastReceiver {
             postNotification(105, context.getString(R.string.app_name), str, activity);
             return;
         }
-        ((NotificationManager) context.getSystemService("notification")).notify(1, new Builder(context).setContentTitle(context.getString(R.string.app_name)).setContentText(str).setSmallIcon(R.drawable.logo_noti).setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.mipmap.logo1)).setSound(defaultUri).setContentIntent(activity).setAutoCancel(true).build());
+        ((NotificationManager) context.getSystemService("notification")).notify(1, new Builder(context).setContentTitle(context.getString(R.string.app_name)).setContentText(str).setSmallIcon(R.drawable.logo_noti).setLargeIcon(BitmapFactory.decodeResource(context.getResources(), R.drawable.icon)).setSound(defaultUri).setContentIntent(activity).setAutoCancel(true).build());
     }
 
     public void postNotification(int i, String str, String str2, PendingIntent pendingIntent) {
